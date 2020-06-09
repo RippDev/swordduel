@@ -12,18 +12,9 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/MainMenu.unity
     guid: 1b5f935006184524f94302bd0b85eb52
   - enabled: 1
-    path: Assets/Game/Scenes/First_Scene.unity
+    path: Assets/Game/Scenes/FirstStage.unity
     guid: 02f2326cbcefeca47ae3a213f6df1b7d
   - enabled: 1
-    path: Assets/Game/Scenes/First_Scene 1.unity
+    path: Assets/Game/Scenes/SecondStage.unity
     guid: 47560ebb1d0a6ac438456f9c1f349f46
-  - enabled: 1
-    path: Assets/Game/Scenes/First_Scene 2.unity
-    guid: d6479b9e0485a8e499956d49714e39c4
-  - enabled: 1
-    path: Assets/Game/Scenes/First_Scene 3.unity
-    guid: e9b6875ba897a024eae32faf742793e6
-  - enabled: 1
-    path: Assets/Game/Scenes/First_Scene 4.unity
-    guid: bcbfdc0ee867a2a4c9042609a5158632
   m_configObjects: {}

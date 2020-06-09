@@ -7,7 +7,7 @@ public class StageManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI readyText;
     [SerializeField] TextMeshProUGUI goText;
-    public static bool hasStarted = false;
+    private bool hasStarted = false;
 
     private void Awake() {
         goText.enabled = false;
@@ -23,6 +23,10 @@ public class StageManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public bool GetHasStarted() {
+        return hasStarted;
     }
 
     IEnumerator GetReadyBanner()

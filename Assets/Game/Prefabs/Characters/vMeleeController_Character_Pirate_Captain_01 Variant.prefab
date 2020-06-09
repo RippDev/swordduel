@@ -1686,7 +1686,7 @@ MonoBehaviour:
   jumpInput:
     useInput: 1
     isAxisInUse: 0
-    keyboard: Space
+    keyboard: W
     keyboardAxis: 0
     joystick: X
     joystickAxis: 0
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   weakAttackInput:
     useInput: 1
     isAxisInUse: 0
-    keyboard: Mouse0
+    keyboard: Space
     keyboardAxis: 0
     joystick: RB
     joystickAxis: 0
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   blockInput:
     useInput: 1
     isAxisInUse: 0
-    keyboard: Mouse1
+    keyboard: LeftControl
     keyboardAxis: 0
     joystick: LB
     joystickAxis: 0
@@ -2083,53 +2083,6 @@ MonoBehaviour:
   selectedToolbar: 0
   defaultDamageEffect: {fileID: 120346, guid: b8f2fe1ee1a01724cb72f5b0e6bd2eef, type: 3}
   customDamageEffects: []
---- !u!114 &374278572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6686045526304895374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openCloseEvents: 0
-  openCloseWindow: 0
-  selectedToolbar: 0
-  damage:
-    damageValue: 15
-    staminaBlockCost: 5
-    staminaRecoveryDelay: 1
-    ignoreDefense: 0
-    activeRagdoll: 0
-    senselessTime: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    hitReaction: 1
-    recoil_id: 0
-    reaction_id: 0
-    damageType: 
-  overrideDamageSender: {fileID: 0}
-  hitBoxes:
-  - {fileID: 965034465}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-  meleeManager: {fileID: 0}
 --- !u!114 &374278574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2209,6 +2162,53 @@ MonoBehaviour:
   overrideDamageSender: {fileID: 0}
   hitBoxes:
   - {fileID: 1306841064}
+  damageModifier: 0
+  canApplyDamage: 0
+  onDamageHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecoilHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  meleeManager: {fileID: 0}
+--- !u!114 &374278572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686045526304895374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 0
+  selectedToolbar: 0
+  damage:
+    damageValue: 15
+    staminaBlockCost: 5
+    staminaRecoveryDelay: 1
+    ignoreDefense: 0
+    activeRagdoll: 0
+    senselessTime: 0
+    sender: {fileID: 0}
+    receiver: {fileID: 0}
+    hitPosition: {x: 0, y: 0, z: 0}
+    hitReaction: 1
+    recoil_id: 0
+    reaction_id: 0
+    damageType: 
+  overrideDamageSender: {fileID: 0}
+  hitBoxes:
+  - {fileID: 965034465}
   damageModifier: 0
   canApplyDamage: 0
   onDamageHit:
@@ -2924,15 +2924,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6686045526304762780}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6686045526304656088 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 434500, guid: 1cc323c6fbf66b44b87cf8f0d2378b05,
-    type: 3}
-  m_PrefabInstance: {fileID: 6686045526304762780}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6686045526304945832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 187700, guid: 1cc323c6fbf66b44b87cf8f0d2378b05,
+    type: 3}
+  m_PrefabInstance: {fileID: 6686045526304762780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6686045526304656088 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 434500, guid: 1cc323c6fbf66b44b87cf8f0d2378b05,
     type: 3}
   m_PrefabInstance: {fileID: 6686045526304762780}
   m_PrefabAsset: {fileID: 0}
