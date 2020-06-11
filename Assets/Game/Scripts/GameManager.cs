@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator LoadMainMenu() {        
         currentScene = 1;        
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(6f);
         SceneManager.LoadScene(currentScene);
         currentScene += 1;        
     }
